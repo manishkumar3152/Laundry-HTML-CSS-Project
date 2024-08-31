@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-cart</title>
+    <link rel="stylesheet" href="shoping-cart-styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Thala <span>7.</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search-profile">
+            <div class="search-container">
+                <span class="search-icon">
+                    <img src="images/search.png" alt="">
+                </span>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="cart-container">
+                <img src="images/cart.png" alt="">
+                <span class="cart-count">0</span>
+            </div>
+            <div class="profile-icon">
+                <img src="images/Manish Pic.jpg" alt="Profile" />
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <main>
+        <section class="shopping-cart">
+            <div class="shopping-cart-heading">
+                <h1>Shopping Cart</h1>
+            </div>
+            <div class="content-container">
+                <div class="shopping-cart-content">
+                    <table class="cart-items">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Seven By M.S.Dhoni W...</td>
+                                <td>
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </td>
+                                <td>₹4,999</td>
+                                <td><button class="remove">✖</button></td>
+                            </tr>
+                            <tr>
+                                <td>Seven By M.S.Dhoni W...</td>
+                                <td>
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </td>
+                                <td>₹4,999</td>
+                                <td><button class="remove">✖</button></td>
+                            </tr>
+                            <tr>
+                                <td>Seven By M.S.Dhoni W...</td>
+                                <td>
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </td>
+                                <td>₹4,999</td>
+                                <td><button class="remove">✖</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="payment-cart-content">
+                    <div class="cart-summary">
+                        <form>
+                            <label for="coupon">Enter Coupon Code</label>
+                            <div class="coupon-container">
+                                <input type="text" id="coupon" placeholder="COUPON CODE">
+                                <button type="submit">Apply Coupon</button>
+                            </div>
+                        </form>
+                        <div class="summary">
+                            <p>Sub Total: <span>₹4,700</span></p>
+                            <p>Taxes (if applicable): <span>₹199</span></p>
+                            <p>Discount: <span>₹0</span></p>
+                            <p class="total">Total: <span>₹4,999</span></p>
+                        </div>
+                    </div>
+                    <div class="pay-now">
+                        <a href="checkout-page.html">Pay Now ₹4,999</a>
+                    </div>
+                    <div class="payment-methods">
+                        <div class="payment-image">
+                            <img src="images/secure-1.png" alt="Secure Payment">
+                        </div>
+                        <div class="payment-image">
+                            <img src="images/Rozapay.png" alt="Razorpay">
+                        </div>
+                        <div class="payment-image">
+                            <img src="images/secure-2.png" alt="Jagoana">
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="continue-shopping">
+                <a href="#" class="continue-shopping">← Continue Shopping</a>
+    
+        </footer>
+    </main>
+
+
+</body>
+
+</html>

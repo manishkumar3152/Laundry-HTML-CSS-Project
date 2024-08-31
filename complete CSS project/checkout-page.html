@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout-page.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Thala <span>7.</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search-profile">
+            <div class="search-container">
+                <span class="search-icon">
+                    <img src="images/search.png" alt="">
+                </span>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="cart-container">
+                <img src="images/cart.png" alt="">
+                <span class="cart-count">0</span>
+            </div>
+            <div class="profile-icon">
+                <img src="images/Manish Pic.jpg" alt="Profile" />
+            </div>
+        </div>
+
+    </nav>
+    <div class="checkout-container">
+        <div class="checkout-left">
+            <div class="checkout-heading">
+                Checkout
+            </div>
+            <div class="contact-details">
+                <div class="heading">
+                    Contact Details
+                </div>
+                <form class="info">
+                    <label for="">Email ID</label>
+                    <input type="text" placeholder="Email ID" required>
+                </form>   
+            </div>
+            <div class="payment-section">
+                <div class="heading">
+                    <h3>Payment</h3>
+                </div>
+                <div class="payment-container">
+                    <div class="payment-methods">
+                        <div class="payment-type">
+                            <div class="type-icon">
+                                <img src="images/card-icon.png" alt="">
+                            </div>
+                            <div class="type-heading">
+                                <button class="active">Card</button>
+                            </div>
+                        </div>
+                        <div class="payment-type">
+                            <div class="type-icon">
+                                <img src="images/crypto-icon.png" alt="">
+                            </div>
+                            <div class="type-heading">
+                                <button>Crypto</button>
+                            </div>
+                        </div>
+                        <div class="payment-type">
+                            <div class="type-icon">
+                                <img src="images/bank-icon.png" alt="">
+                            </div>
+                            <div class="type-heading">
+                                <button>Bank</button>
+                            </div>
+                        </div>
+                        <div class="payment-type">
+                            <div class="type-icon">
+                                <img src="images/dot-icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <div class="detail-box-1">
+                            <form class="info">
+                                <label for="">Card Number</label>
+                                <input type="text" placeholder="XXXX XXXX XXXX XXXX" required>
+                            </form> 
+                        </div>
+                        <div class="detail-box-2">
+                            <div class="card-box">
+                                <form class="info">
+                                    <label for="">Expiry</label>
+                                    <input type="text" placeholder="MM/YY" required>
+                                </form> 
+                            </div>
+                            <div class="card-box">
+                                <form class="info">
+                                    <label for="">CVC</label>
+                                    <input type="text" placeholder="..." required>
+                                </form> 
+                            </div>   
+                        </div>
+                        <div class="detail-box-3">
+                            <div class="card-box">
+                                <form class="info">
+                                    <label for="">Country</label>
+                                    <input type="text" placeholder="India" required>
+                                </form> 
+                            </div>
+                            <div class="card-box">
+                                <form class="info">
+                                    <label for="">ZIP</label>
+                                    <input type="text" placeholder="XXXX" required>
+                                </form> 
+                            </div>   
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <div class="checkout-right">
+                <div class="order-summary">
+                    Order Summary
+                </div>
+                <div class="cart-summary">
+                    <form>
+                        <label for="coupon">Enter Coupon Code</label>
+                        <div class="coupon-container">
+                            <input type="text" id="coupon" placeholder="COUPON CODE">
+                            <button type="submit">Apply Coupon</button>
+                        </div>
+                    </form>
+                    <div class="summary">
+                        <p>Sub Total: <span>₹4,700</span></p>
+                        <p>Taxes (if applicable): <span>₹199</span></p>
+                        <p>Discount: <span>₹0</span></p>
+                        <p class="total">Total: <span>₹4,999</span></p>
+                    </div>
+                </div>
+                <div class="pay-now">
+                    <a href="#">Pay Now ₹4,999</a>
+                </div>
+                <div class="payment-logo">
+                    <div class="payment-image">
+                        <img src="images/secure-1.png" alt="Secure Payment">
+                    </div>
+                    <div class="payment-image">
+                        <img src="images/Rozapay.png" alt="Razorpay">
+                    </div>
+                    <div class="payment-image">
+                        <img src="images/secure-2.png" alt="Jagoana">
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
